@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+  font-size: large;
+}
+
+body {
+  font-size: x-large;
+}
+
+.App-header {
+  background-color: #e300c8;
+  min-height: 60px;
+  padding: 20px;
+  color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  margin: 0 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.button {
+  padding: 16px 30px;
+  margin: 5px;
+  background-color: #7600c5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: x-large;
+}
+
+.button:hover {
+  background-color: #460066;
+}
+
+.input {
+  margin: 0 10px;
+  padding: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: x-large;
+
+}
+
+form {
+  margin-top: 20px;
+}
+
+.task-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-size: 18px; /* Larger font size for the entire table */
+}
+
+.task-table th, .task-table td {
+  border: 1px solid #ddd;
+  padding: 12px; /* Increased padding for better visibility with larger text */
+  text-align: left;
+  font-size: large;
+
+}
+
+.task-table th {
+  background-color: #e300c8;
+  color: white;
+  font-size: large;
+}
+
+.remove-btn {
+  background-color: #00c8ff;
+  padding: 8px 16px; /* Adjust padding to suit larger text */
+  font-size: 16px; /* Specific larger font size for buttons in the table */
+}
+
+.remove-btn:hover {
+  background-color: #00499d;
+}
+
+.result {
+  font-size: x-large;
+}
+
+
